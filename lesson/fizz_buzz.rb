@@ -10,7 +10,7 @@ def fizz_buzz(num)
   elsif num % 3 == 0
     puts 'Fizz'
   else
-    # puts "#{num}"
+    # numをto_sで文字列で出力している
     num.to_s
   end
 end
